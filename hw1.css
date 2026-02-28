@@ -1,0 +1,106 @@
+/*
+Name: Danielle Dujunco
+Date created: 2/25/2026
+Date last edited: 2/26/2026
+Version: 1.0
+Description: Homework 1 CSS 
+*/
+header {
+    width: 100%;
+    background-color:rgb(143, 158, 114);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(201, 215, 166);
+    margin: 0;
+    height: 100%;
+    min-height: 100vh; /* page is height of the viewport */
+}
+
+form {
+    flex-grow: 1;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    flex-grow: 1;
+}
+main {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: normal;
+    flex-grow: 1;
+}
+
+.image {
+    text-align: left;
+}
+
+.td1 {
+    text-align: right;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+th {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+footer {
+    position: flex;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(114, 136, 82);
+    height: 2.0rem;
+}
+
+#footer {
+    text-align: right;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+label {
+    text-align: right;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+input {
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+input[type="text"] {
+    width: 150px;
+}
+
+input[type="text"][maxlength="1"] {
+    width: 30px;
+}
+textarea {
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+#today {
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: normal;
+    margin-right: 5px;
+}
+
+p {
+    text-align: right;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: normal;
+}
